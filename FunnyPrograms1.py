@@ -1,5 +1,5 @@
 def pause():
-    prgmPause = input("\nPress the <ENTER> key to continue...\n")
+    prgmPause = input("\nPress any key to continue...\n")
 
 list1 = list(input("Enter something:"))
 confirm = int(input("Do you want to print the list? Yes - 1 / No - 0 : "))
@@ -24,8 +24,10 @@ print("The elements in the list are:", list2)
 print("The sum is:", sum)
 pause()
 
-print("\n")
 for kek in list1:
     print(kek)
 print("\n", list1[-1],list1[5], list1[-3],list1[0])
+pause()
+
+list3=list[1:5]
 pause()
