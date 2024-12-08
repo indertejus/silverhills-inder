@@ -1,5 +1,8 @@
+def pause():
+    prgmPause = input("Press the <ENTER> key to continue...")
+
 list1 = list(input("Enter something:"))
-confirm = int(input("Do you want to print the list? Yes(1)/No(0)"))
+confirm = int(input("Do you want to print the list? Yes - 1 / No - 0 : "))
 yes = 1
 no = 0
 if confirm == yes:
@@ -7,3 +10,7 @@ if confirm == yes:
 elif confirm == no:
     print("Exiting...")
 else: print("What the hell bro?")
+
+for i in list1:
+    print(i)
+pause()
