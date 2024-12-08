@@ -29,5 +29,6 @@ for kek in list1:
 print("\n", list1[-1],list1[5], list1[-3],list1[0])
 pause()
 
-list3=list[1:5]
+list3=list1[0:6]
+print(list3)
 pause()
