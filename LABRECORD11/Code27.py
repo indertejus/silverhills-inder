@@ -1,4 +1,4 @@
-# Write a program to check whether the given number is Palindrome number, perfect number or Armstrong number.
+ # Write a program to check whether the given number is Palindrome number, perfect number or Armstrong number.
 
 #Function to check if a number is an Perfect number
 def is_perfect_number(num):
@@ -38,7 +38,7 @@ number = int(input("Enter a number: "))
 
 # Check if the number is a perfect number
 if is_perfect_number(number):
-    print(number, "is a perfecct number.")
+    print(number, "is a perfect number.")
 else: print(number, "is not a perfect number.")
 
 # Check if the number is an Armstrong number
@@ -50,3 +50,5 @@ else: print(number, "is not an Armstrong number.")
 if is_palindrome(number):
     print(number, "is a palindrome.")
 else: print(number, "is not a palindrome.")
+
+
